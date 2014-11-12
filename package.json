@@ -5,5 +5,19 @@
   "description": "a basic add-on",
   "author": "",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.1",
+  "preferences": [
+    {
+        "name": "host",
+        "title": "Server URL",
+        "type": "string",
+        "value": "http://localhost:8080/"
+    },
+    {
+        "name": "enableVisits",
+        "title": "Record all page visits",
+        "type": "bool",
+        "value": true
+    }
+  ]
 }

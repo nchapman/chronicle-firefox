@@ -1,8 +1,8 @@
 {
-  "name": "chronicle-firefox",
-  "title": "chronicle-firefox",
+  "name": "chronicle",
+  "title": "Chronicle",
   "id": "jid1-C2ELEwfR6AxliA",
-  "description": "a basic add-on",
+  "description": "Your web. Your way.",
   "author": "",
   "license": "MPL 2.0",
   "version": "0.1",
@@ -11,7 +11,7 @@
         "name": "host",
         "title": "Server URL",
         "type": "string",
-        "value": "http://localhost:8080/"
+        "value": "https://gochronicle.herokuapp.com/"
     },
     {
         "name": "enableVisits",

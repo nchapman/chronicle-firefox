@@ -21,7 +21,7 @@
     },
     {
         "name": "enablePushStateTracking",
-        "title": "Use experimental push state tracking",
+        "title": "Use experimental push state tracking (requires restart)",
         "type": "bool",
         "value": false
     }

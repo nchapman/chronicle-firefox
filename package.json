@@ -2,8 +2,8 @@
   "name": "chronicle",
   "title": "Chronicle",
   "id": "jid1-C2ELEwfR6AxliA",
-  "description": "Your web. Your way.",
-  "author": "",
+  "description": "Your web in one place.",
+  "author": "Nick Chapman, Mozilla",
   "license": "MPL 2.0",
   "version": "0.1",
   "preferences": [
@@ -11,13 +11,19 @@
         "name": "host",
         "title": "Server URL",
         "type": "string",
-        "value": "https://gochronicle.herokuapp.com/"
+        "value": "http://localhost:8080/"
     },
     {
         "name": "enableVisits",
         "title": "Record all page visits",
         "type": "bool",
         "value": true
+    },
+    {
+        "name": "enablePushStateTracking",
+        "title": "Use experimental push state tracking",
+        "type": "bool",
+        "value": false
     }
   ]
 }
